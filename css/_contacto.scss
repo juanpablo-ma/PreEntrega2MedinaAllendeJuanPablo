@@ -1,0 +1,16 @@
+.titulo-contacto{
+    font-size: $font-size-1;
+}
+.redes-ctto a{
+    font-size: $font-size-3;
+    color: $color-negro;
+}
+
+.redes-ctto a:hover{
+    color: $color-rojo;
+}
+
+// Mapa
+.contacto iframe{
+    width: 100%;
+}

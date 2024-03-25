@@ -1,178 +1,156 @@
-/* Fuente */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-*{
-    font-family: "Inter", sans-serif;
-}
-/* font-family: "Inter", sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
-font-style: normal;
-font-variation-settings:
-  "slnt" 0; */
-/* Fuente fin*/
-
-
-/* Navbar header*/
-.header{
-    min-height: 100px;
-    background-color: #0081A7;
-    border-bottom: 5px solid #E71D36;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
 }
 
-
-.navbar-brand{
-    text-align: center;
+.header {
+  min-height: 100px;
+  background-color: #0081A7;
+  border-bottom: 5px solid #E71D36;
+  background-image: linear-gradient(to left, #0081A7, #191919);
 }
 
-.navbar-brand i{
-    font-size: 45px;
-    transition: 0.3s;
+.navbar-brand i {
+  font-size: 45px;
+  transition: 0.3s;
 }
 
-.navbar-brand i:hover{
-    text-shadow: 0 0 30px #E71D36;
+.navbar-brand i:hover {
+  text-shadow: 0 0 30px #E71D36;
 }
 
-.nav-link{
-    font-size: 19px;
+.nav-link {
+  font-size: 19px;
 }
 
-
-
-.collapse{
-    display: flex;
-    justify-content: end;
-}
-/* Navbar header fin */
-
-/* Main */
-main{
-    height: 100vh;
-    width: 100%;
-    background-color: #f3f1f1;
-}
-/* Main fin*/
-
-
-/* Footer */
-footer{
-    background-color: #0081A7;
+.collapse {
+  display: flex;
+  justify-content: end;
 }
 
-.footer span{
-    color: #B8DBD9;
+footer {
+  background-color: #0081A7;
+  background-image: linear-gradient(to left, #0081A7, #191919);
 }
 
-.footer-redes a{
-    color: #B8DBD9;
-    font-size: 20px;
-    transition: 0.2s;
+.footer span {
+  color: #B8DBD9;
 }
 
-.footer-redes a:hover{
-    color: #f3f1f1;
-}
-/* Footer fin*/
-
-/* ///////////////// index inicia //////////////// */
-
-/* Jumbotron */
-
-.jumbotron{
-    background-image: url(../multimedia/dentist-1639683_1920.jpg);
-    background-size: cover;
-    position: relative;
-    height: 400px;
-
+.footer-redes a {
+  color: #B8DBD9;
+  font-size: 20px;
+  transition: 0.2s;
 }
 
-.titulo{
-    color: #191919;
-    border: 5px solid #191919;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 300px;
-    text-align: center;
+.footer-redes a:hover {
+  color: #f3f1f1;
 }
 
-h1{
-    font-weight: bolder;
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #f3f1f1;
+  color: #191919;
 }
 
-/* Jumbotron fin */
-
-/* Boton call */
-main button{
-    display: block !important;
-}
-/* Boton call fin */
-
-/*Main*/
-main p{
-    color: #191919;
-    font-size: 18px;
+main div p {
+  font-size: 16px;
 }
 
-/*main fin*/
-
-/* ///////////////// index fin //////////////// */
-
-
-/* ///////////////// Contacto inicia //////////////// */
-
-.contacto{
-    color: #191919;
-}
-.redes-ctto a{
-    font-size: 20px;
-    color: #191919;
+.jumbotron {
+  background-image: url(../multimedia/dentist-1639683_1920.jpg);
+  background-size: cover;
+  position: relative;
+  height: 400px;
 }
 
-.redes-ctto a:hover{
-    color: #E71D36;
+.titulo {
+  border: 5px solid #191919;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 300px;
+  text-align: center;
 }
 
-/* mapa */
-.contacto iframe{
-    width: 100%;
+h1 {
+  font-weight: bolder;
 }
 
-/* ///////////////// Contacto fin//////////////// */
-
-
-/* ///////////////// Galeria //////////////// */
-
-.intro-galeria{
-    color: #191919;
+.titulo p {
+  font-weight: bold;
+  font-size: 25px;
 }
 
-/* ///////////////// Galeria fin//////////////// */
-
-
-/* ///////////////// Servicios inicia ///////////////// */
-
-.servicios-c{
-    background-color: #f3f1f1;
-}
-/* ///////////////// Servicios fin///////////////// */
-
-
-/* ///////////////// Acerca de mi ///////////////// */
-
-.acerca-de-mi-c ul li{
-    display: inline-block;
+.index-titulo {
+  font-size: 30px;
 }
 
-.acerca-de-mi-c ul li span{
-    font-weight: bold;
-    display: inline-block;
+main button {
+  display: block !important;
 }
 
-/* ///////////////// Acerca de mi fin ///////////////// */
+.titulo-contacto {
+  font-size: 30px;
+}
 
+.redes-ctto a {
+  font-size: 20px;
+  color: #191919;
+}
 
+.redes-ctto a:hover {
+  color: #E71D36;
+}
 
+.contacto iframe {
+  width: 100%;
+}
+
+.titulo-galeria {
+  font-size: 30px;
+}
+
+.titulo-servicios h1 {
+  font-size: 30px;
+}
+
+.servicios-cont {
+  background-color: #f3f1f1;
+}
+
+.card {
+  transition: 1.2s;
+}
+
+.card:hover {
+  transform: RotateY(12deg);
+  box-shadow: -10px 0 10px #E71D36;
+}
+
+.servicios-card h2 {
+  font-size: 25px;
+}
+
+.acerca-de-mi-c {
+  background-color: #f3f1f1;
+}
+
+.acerca-de-mi-c h1 {
+  font-size: 30px;
+}
+
+.acerca-de-mi-c h2 {
+  font-size: 25px;
+}
+
+.acerca-de-mi-c ul li span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

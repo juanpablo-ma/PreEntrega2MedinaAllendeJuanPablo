@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Descubre nuestra amplia gama de servicios odontológicos en Odontología Integral. Desde limpiezas y tratamientos de prevención hasta implantes y ortodoncia avanzada, nuestro equipo de expertos está aquí para cuidar de tu salud bucal de manera integral. ¡Recupera tu sonrisa y tu confianza con nuestros servicios personalizados y de alta calidad!">
+    <meta name="keywords" content="servicios dentales, odontología integral, limpieza dental, blanqueamiento dental, implantes dentales, ortodoncia, endodoncia, prótesis dentales, odontología estética, atención dental, salud oral">
     <!-- link Bootstrap v5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -13,82 +14,95 @@
     <!-- link CSS -->
     <link rel="stylesheet" href="../css/style.css">
     
-    <title>Servicios</title>
+    <title>Servicios de Odontología Integral | Las distintas formas de cuidar tu sonrisa</title>
 </head>
 <body>
 
-    <!-- Navbar header-->
-    <nav class="header navbar navbar-expand-sm navbar-dark">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-            <i class="fa-solid fa-tooth"></i>
-            <p>Odontologia Integral</p>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/galeria.html">Galería</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/acerca-de-mi.html">Acerca de mi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </nav> 
-    <!-- Navbar header fin -->
+    <!-- Header-->
+    <header>
+        <nav class="header navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-center" href="../index.html">
+                    <i class="fa-solid fa-tooth"></i>
+                    <p>Odontologia Integral</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./acerca-de-mi.html">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <!-- Header fin -->
 
     <main>
 
-        <section class="tituloservicios text-center py-5">
+        <section class="titulo-servicios text-center py-5">
             <h1>Servicios</h1>
         </section>
 
 
-        <div class="servicios-c container-fluid pb-5 mb-5">
+        <div class="servicios-cont container-fluid pb-5 mb-5">
             <div class="row">
 
-                <article class="col-sm-12 col-md-6 text-center ">
-                    <h3>Limpieza dental y revisión de rutina</h3>
-                    <img class="img-fluid" src="../multimedia/servicio1_dentista.jpg" alt="">
-                    <p>Procedimiento básico para mantener una buena salud bucal, que incluye la eliminación de placa y sarro, así como una revisión de la salud general de los dientes y encías.</p>
-                </article>
+                <section class="servicios-card container pt-2 col-sm-12 col-md-6 col-xxl-4">
+                    <h2>Limpieza dental y revisión de rutina</h2>
+                    <div class="card">
+                        <img class="img-fluid" src="../multimedia/servicio1_dentista.jpg" alt="imagen mostrando paciente sometiendose a tratamiento de limpieza dental" style="width: 100%;">
+                        <p class="card-body">Procedimiento básico para mantener una buena salud bucal, que incluye la eliminación de placa y sarro, así como una revisión de la salud general de los dientes y encías.</p>
+                    </div>
 
-                <article class="col-sm-12 col-md-6">
-                    <h3>Blanqueamiento dental</h3>
-                    <img class="img-fluid" src="../multimedia/servicio5_dentista.jpg" alt="">
-                    <p>Tratamiento estético para mejorar el color de los dientes, eliminando manchas y decoloraciones para lograr una sonrisa más brillante y atractiva.</p>
-                </article>
+                </section>
 
-                <article class="col-sm-12 col-md-4">
-                    <h3>Obturaciones dentales</h3>
-                    <img class="img-fluid" src="../multimedia/servicio3_dentista.jpg" alt="">
-                    <p>Reparación de caries dentales mediante el uso de materiales de obturación, como resinas compuestas o amalgama, para restaurar la estructura y función del diente dañado.</p>
-                </article>
+                <section class="servicios-card container pt-2 col-sm-12 col-md-6 col-xxl-4">
+                    <h2>Blanqueamiento dental</h2>
+                    <div class="card">
+                        <img class="img-fluid" src="../multimedia/servicio5_dentista.jpg" alt="imagen mostrando dientes saludables, resultado de proceso de blanqueamiento dental">
+                        <p class="card-body">Tratamiento estético para mejorar el color de los dientes, eliminando manchas y decoloraciones para lograr una sonrisa más brillante y atractiva.</p>
+                    </div>
+                </section>
 
-                <article class="col-sm-12 col-md-4">
-                    <h3>Implantes dentales</h3>
-                    <img class="img-fluid" src="../multimedia/servicio2_dentista.jpg" alt="">
-                    <p>Procedimiento quirúrgico para reemplazar dientes perdidos, en el que se coloca un implante de titanio en el hueso maxilar o mandibular y se coloca una corona dental sobre él para restaurar la función y estética.</p>
-                </article>
+                <section class="servicios-card container pt-2 col-sm-12 col-md-4">
+                    <h2>Obturaciones dentales</h2>
+                    <div class="card">
+                        <img class="img-fluid" src="../multimedia/servicio3_dentista.jpg" alt="imagen mostrando paciente siendo atendido por caso de obturaciones dentales">
+                        <p class="card-body">Reparación de caries dentales mediante el uso de materiales de obturación, como resinas compuestas o amalgama, para restaurar la estructura y función del diente dañado.</p>
+                    </div>
+                </section>
 
-                <article class="col-sm-12 col-md-4">
-                    <h3>Ortodoncia</h3>
-                    <img class="img-fluid" src="../multimedia/dentist-1639683_1920.jpg" alt="">
-                    <p>Tratamiento para corregir la alineación de los dientes y la mordida, utilizando aparatos como brackets metálicos, cerámicos o invisibles, así como alineadores transparentes, para lograr una sonrisa más recta y funcional.</p>
-                </article>
+                <section class="servicios-card container pt-2 col-sm-12 col-md-4">
+                    <h2>Implantes dentales</h2>
+                    <div class="card">
+                        <img class="img-fluid" src="../multimedia/servicio2_dentista.jpg" alt="imagen que muestra un profesional proceso de implante dental">
+                        <p class="card-body">Procedimiento quirúrgico para reemplazar dientes perdidos, en el que se coloca un implante de titanio en el hueso maxilar o mandibular y se coloca una corona dental sobre él para restaurar la función y estética.</p>
+                    </div>
+                </section>
+
+                <section class="servicios-card container pt-2 col-sm-12 col-md-4">
+                    <h2>Ortodoncia</h2>
+                    <div class="card">
+                        <img class="img-fluid" src="../multimedia/dentist-1639683_1920.jpg" alt="imagen mostrando a odontologo explicando a su paciente como aplicara la ortodoncia al paciente">
+                        <p class="card-body">Tratamiento para corregir la alineación de los dientes y la mordida, utilizando aparatos como brackets metálicos, cerámicos o invisibles, así como alineadores transparentes, para lograr una sonrisa más recta y funcional.</p>
+                    </div>
+                </section>
 
             </div>
         </div>

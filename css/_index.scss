@@ -1,0 +1,41 @@
+// Jumbotron
+
+.jumbotron{
+    background-image: url(../multimedia/dentist-1639683_1920.jpg);
+    background-size: cover;
+    position: relative;
+    height: 400px;
+
+}
+
+.titulo{
+    border: 5px solid $color-negro;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.titulo p{
+    font-weight: bold;
+    font-size: $font-size-2;
+}
+
+// Div
+
+.index-titulo{
+    font-size: $font-size-1;
+}
+
+// Boton call
+main button{
+    display: block !important;
+}

@@ -1,0 +1,36 @@
+@import '_fuentes';
+
+body {
+    font-family: $font1;
+}
+
+//Paleta de colores
+$color-azul: #0081A7;
+$color-negro: #191919;
+$color-azul-claro: #B8DBD9;
+$color-rojo: #E71D36;
+$color-blanco: #f3f1f1;
+
+
+@import '_header-footer';
+
+
+// Main
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: $color-blanco;
+    color: $color-negro;
+}
+
+main div p{
+    font-size: $font-size-4;
+}
+
+// Main fin
+
+@import '_index';
+@import '_contacto';
+@import '_galeria';
+@import '_servicios';
+@import '_acerca-de-mi';
