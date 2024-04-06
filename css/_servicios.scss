@@ -3,19 +3,23 @@
 }
 .servicios-cont{
     background-color: $color-blanco;
+
+    .servicios-card h2{
+        font-size: $font-size-2;
+    }
+
+    .card{
+        transition: 1.2s;
+    }
+    
+    .card:hover{
+        transform: RotateY(12deg);
+        box-shadow: -10px 0 10px $color-rojo;
+    }
 }
 
-.card{
-    transition: 1.2s;
-}
 
-.card:hover{
-    transform: RotateY(12deg);
-    box-shadow: -10px 0 10px $color-rojo;
-}
 
-.servicios-card h2{
-    font-size: $font-size-2;
-}
+
 
 
